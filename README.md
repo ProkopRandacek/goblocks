@@ -16,16 +16,28 @@ All config files live in `~/.config/goblocks`. Most of the config is done in `bl
 
 `
 [
+
   {
+  
     "Command": "time",
+    
     "Interval": 1,
+    
     "Separator": "]["
+    
    },
+   
    {
+   
     "Command": "network",
+    
     "Interval": 20,
+    
     "Separator": "]["
+    
    }
+   
 ]
+
 `
 The command option rund a command in the config folder.
