@@ -14,12 +14,12 @@ Status bar manager for dwm
 ## configuration
 All config files live in `~/.config/goblocks`. Most of the config is done in `blocks.json`.
 
-`
+```json
 [
-  { 
+  {
     "Command": "time",
     "Interval": 1,
-    "Separator": "][" 
+    "Separator": "]["
    },
    {
     "Command": "network",
@@ -27,5 +27,5 @@ All config files live in `~/.config/goblocks`. Most of the config is done in `bl
     "Separator": "]["
    }
 ]
-`
+```
 The command option rund a command in the config folder.
